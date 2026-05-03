@@ -3,12 +3,12 @@ import Link from "next/link";
 const Layout = ({children}:{children: React.ReactNode}) => {
     return ( 
         <div>
-            <nav>
+            {/* <nav>
       <ul>
         <li><button>Dark Mode</button></li>
         <li><Link href="/signin">Sign In</Link></li>
       </ul>
-    </nav>
+    </nav> */}
             {children}
             <footer>
         <h3>About</h3>

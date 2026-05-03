@@ -35,7 +35,7 @@ export default function SignInPage() {
       setLoading(false);
     } else {
       // Success! Redirect to home or dashboard
-      router.push("/home");
+      router.push("/home-login");
       router.refresh();
     }
   };
